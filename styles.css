@@ -1,0 +1,41 @@
+body {
+    background: #EDEDED;
+    margin: 0;
+}
+header {
+    background: white;
+    padding: 10px;
+}
+header h1 {
+    width: 600px;
+    margin: 0 auto;
+}
+div {
+    box-sizing: border-box;
+}
+div.post {
+    background: white;
+    margin-top: 10px;
+}
+div.post h2, div.post p {
+    padding: 10px;
+    margin: 0;
+}
+div.post img {
+    width: 100%;
+}
+div.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child {
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+    width: 20%;
+    color: grey;
+}
+div.container {
+    width: 600px;
+    margin: 50px auto;
+}
